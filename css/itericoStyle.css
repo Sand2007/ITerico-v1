@@ -1,0 +1,467 @@
+body {
+    background-color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
+/*BLOCK HEADER*/
+#header {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/headerBg.jpg);
+    background-repeat: no-repeat;
+}
+
+/*BLOCK TOP HEADER*/
+div.topHeader {
+    width: 100%;
+    height: 94px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #ffffff;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+div.iTopHeader {
+    width: 1020px;
+    height: 94px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.logo {
+    width: 262px;
+    height: 75px;
+    position: absolute;
+    top: 10px;
+}
+
+/*BLOCK NAV*/
+.nav {
+    width: 540px;
+    height: 37px;
+    position: absolute;
+    right: 0px;
+    top: 28px;
+}
+
+.nav ul {
+    width: 540px;
+    height: 37px;
+}
+
+.nav ul li {
+    width: 125px;
+    height: 37px;
+    float: left;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    width: 125px;
+    height: 27px;
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    font: 16px Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #F0F0F0;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 2px 1px #D4D4D4;
+    -moz-box-shadow: 0px 2px 1px #D4D4D4;
+    box-shadow: 0px 2px 1px #D4D4D4;
+    text-shadow:0px 1px 1px #D4D4D4;  
+}
+
+.nav ul li a:hover {
+   background-color: #B4B4B4; 
+   border: 1px solid #B4B4B4;
+   color: #FFFFFF;
+}
+
+/*BLOCK BOTTOM HEADER*/
+.bottomHeader {
+    width: 1020px;
+    height: 660px;
+    margin: 0 auto;
+    z-index: 1;
+    background: hsla(140, 50%, 30%, 0.5);
+}
+
+.bottomHeader div {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    top: 266px;
+}
+
+.bottomHeader h1 {
+   padding-left: 30px;
+   padding-right: 30px;
+   font: 40px Helvetica, sans-serif; 
+   color: #F8F8F8;
+   text-align: center;
+   text-shadow:0px 1px 1px #000000;
+}
+
+.bottomHeader p {
+   margin-top: 30px;
+   line-height: 150%;
+   font: 20px Helvetica, sans-serif; 
+   color: #F8F8F8;
+   text-shadow:0px 1px 1px #000000;
+   text-align: center;
+}
+
+/*BLOCK TEHNOLOGY*/
+#tehnologies {
+    width: 100%;
+    height: 660px;
+    background-color: #E9E9E9;
+}
+
+.iTehnologies {
+    width: 1020px;
+    height: 660px;
+    margin: 0 auto;
+}
+
+.iTehnologies h2 {
+    height: 72px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font: 40px Helvetica, sans-serif;
+    color: #516C4C;
+    text-shadow:0px 1px 1px #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.iTehnologies table {
+    width: 1020px;
+    height: 468px;
+}
+
+.iTehnologies table tr {
+    width: 1020px;
+    height: 234px;
+}
+
+.iTehnologies table td {
+    width: 340px;
+    height: 234px;
+    position: relative;
+}
+
+.iTehnologies table td p {
+    margin:  10px 10px;
+    padding: 0px 0px;
+    font: 16px Helvetica, sans-serif;
+    text-shadow:0px 1px 1px #ffffff;
+    line-height: 150%;
+    text-align: center;
+}
+
+/*BLOCK ABOUT*/
+#about {
+    width: 100%;
+    height: 660px;
+    background: hsla(140, 90%, 90%, 0.8);
+}
+
+.iAbout {
+    width: 1020px;
+    height: 660px;
+    margin: 0 auto;
+}
+
+.iAbout h2 {
+    height: 72px;
+    padding: 100px 0 20px 0;
+    font: 40px Helvetica, sans-serif;
+    color: #516C4C;
+    text-shadow:0px 1px 1px #000000;
+    text-align: center;
+}
+
+.iAbout div {
+    width: 200px;
+    height: 468px;
+    float: left;
+    margin: 0 27px 0 27px;
+}
+
+.iAbout div h3 {
+    margin-top: 10px;
+    font: 21px Helvetica, sans-serif;
+    color: #000000;
+    text-shadow:0px 1px 1px #ffffff;
+    text-align: center;
+}
+
+.iAbout div span {
+    margin-top: 5px;
+    display: block;
+    font: 19px Helvetica, sans-serif;
+    color: #5F5F5F;
+    text-shadow:0px 1px 1px #ffffff;
+    text-align: center;
+}
+
+.iAbout div p {
+    margin-top: 15px;
+    font: 17px Helvetica, sans-serif;
+    color: #000000;
+    text-shadow:0px 1px 1px #ffffff;
+    text-align: center;    
+} 
+
+/*BLOCK CONTACT*/
+
+#contact {
+    width: 100%;
+    height: 580px;
+    background-color: #E9E9E9;
+}
+
+.iContact {
+    width: 1020px;
+    height: 580px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.iContact h2 {
+    height: 72px;
+    padding: 100px 0 20px 0;
+    font: 40px Helvetica, sans-serif;
+    color: #516C4C;
+    text-shadow: 0px 1px 1px #000000;
+    text-align: center;    
+}
+
+*:focus {
+    outline: none;
+}
+
+.formHint, .requiredNotification {
+    font-size: 11px;
+}
+
+.contactForm {
+    width: 650px;
+    height: 388px;
+    position: absolute;
+}
+
+.contactForm ul {
+    width: 650px;
+    margin: 0px;
+	padding: 0px;
+    list-style-type: none;
+	list-style-position: outside;
+}
+
+.contactForm li{
+    position: relative;
+	padding: 12px; 
+} 
+
+.contactForm label {
+    font: 16px Helvetica, sans-serif;
+    color: #000000;
+    text-shadow: 0px 1px 1px #ffffff;
+}
+
+.requiredNotification {
+    float: right;
+    margin: 5px 0 0 0;
+    display: inline;
+	color: #d45252; 
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.contactForm label {
+	width: 150px;
+    float: left;
+    display: inline-block;
+	margin-top: 3px;
+	padding: 3px;
+}
+
+.contactForm input {
+	width: 220px;
+    height: 20px; 
+	padding: 5px 8px;
+}
+
+.contactForm textarea {
+    width: 300px;
+    padding: 8px; 
+}
+
+.contactForm button {
+    margin-left: 156px;
+}
+
+.contactForm input, .contactForm textarea { 
+    padding-right: 30px;
+    color: #000000;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+    text-shadow: 0px 1px 1px #ffffff;
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+    padding-right: 70px;
+    background: #fff; 
+    border: 1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}
+
+.contactForm input:required, .contactForm textarea:required {
+	background: #fff url(../images/redForm.png) no-repeat 98% center;
+}
+
+.contactForm input:required:valid, .contactForm textarea:required:valid {
+	background: #fff url(../images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+
+.contactForm input:focus:invalid, .contactForm textarea:focus:invalid {
+	background: #fff url(../images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+.formHint {
+    position: absolute;
+    margin-left: 8px;
+	padding: 1px 6px;
+    color: white;
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	z-index: 999; 
+	display: none;
+}
+
+.formHint::before {
+    position: absolute;
+	top: 1px;
+	left: -6px;
+	content: "\25C0";
+	color: #d45252;
+}
+
+.contactForm input:focus + .formHint {
+    display: inline;
+}
+
+.contactForm input:required:valid + .formHint {
+    background: #28921f;
+}
+
+.contactForm input:required:valid + .formHint::before {
+    color: #28921f;
+}
+	
+button.submit {
+    padding: 6px 20px;
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+
+button.submit:hover {
+	opacity: .85;
+	cursor: pointer; 
+}
+
+button.submit:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	-webkit-box-shadow: 0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+.contactSkype {
+    width: 155px;
+    height: 60px;
+    position: absolute;
+    top: 230px;
+    right: 150px;
+    font: 20px Helvetica, sans-serif;
+    color: #000000;
+    text-shadow: 0px 1px 1px #ffffff;
+    background-image: url(../images/skypeBg.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.contactSkype h4 {
+    font: 20px Helvetica, sans-serif;
+    color: #00A0C1;
+}
+
+.contactSkype p {
+    padding: 10px 0 0 45px;
+}
+
+/*BLOCK FOOTER*/
+
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: #1E3C50;
+    font: 14px Helvetica, sans-serif;
+}
+
+.iFooter {
+    width: 1020px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.iFooter p {
+    display: block;
+    position: absolute;
+    top: 35px;
+    color: #ffffff;
+}
+
+.iFooter p span {
+    color: #00A0C1;
+}
